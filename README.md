@@ -46,3 +46,5 @@ Foram rodadas 4000 épocas com uma taxa de aprendizado de 0.1. Para a atualizaç
 Essas estratégias e parâmetros descritos acima foram sendo testados e alterados manualmente até que os valores de saída tivessem uma taxa de desempenho superior a 8.
 
 Para facilitar, subi o projeto no heroku. Basta acessar o link: https://trabalhofinal-ia.herokuapp.com
+
+Vídeo de apresentação: https://youtu.be/nIgjS9pfnb0

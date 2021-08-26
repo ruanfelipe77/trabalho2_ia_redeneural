@@ -53,7 +53,7 @@ class AutomacaoCalculo():
     # estrategia (descida do gradiente estocastico)
     # funcao de ativação
     # taxa constante
-    rna = MLPRegressor( hidden_layer_sizes=(10, 5),
+    rna = MLPRegressor( hidden_layer_sizes=(10, 10),
                         max_iter=4000,
                         tol=0.0000001,
                         learning_rate_init=0.1,
