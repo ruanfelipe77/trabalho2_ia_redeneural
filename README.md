@@ -38,7 +38,7 @@ Depois foram alterados para:
 
 A taxa de desempenho subiu para 9.
 
-<img src="10x5.png" alt=""/>
+<img src="10x10.png" alt=""/>
 <img src="taxa2.png" alt=""/>
 
 Foram rodadas 4000 épocas com uma taxa de aprendizado de 0.1. Para a atualização dos parametros estou usando a estratégia da descida do gradiente estocástico. Por fim, foi utilizada a função de ativação logística.
