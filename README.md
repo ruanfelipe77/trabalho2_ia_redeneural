@@ -25,7 +25,7 @@ Os parâmetros iniciais foram:
 5 neurônios na segunda camada e
 2000 mil épocas
 
-A taxa de desempenho ficou em 7.
+A taxa de desempenho ficou em 0,7.
 
 <img src="5x5.png" alt=""/>
 <img src="taxa1.png" alt=""/>
@@ -36,7 +36,7 @@ Depois foram alterados para:
 10 neurônios na segunda camada e
 4000 mil épocas
 
-A taxa de desempenho subiu para 9.
+A taxa de desempenho subiu para 0,9.
 
 <img src="10x10.png" alt=""/>
 <img src="taxa2.png" alt=""/>
