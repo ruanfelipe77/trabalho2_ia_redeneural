@@ -21,8 +21,8 @@ Os resultados mostram um bom desempenho da MLP na identificação de elementos n
 
 Os parâmetros iniciais foram:
 
-5 neurônios da primeira camada
-5 neurônios na segunda camada
+5 neurônios da primeira camada,
+5 neurônios na segunda camada e
 2000 mil épocas
 
 A taxa de desempenho ficou em 7.
@@ -32,8 +32,8 @@ A taxa de desempenho ficou em 7.
 
 Depois foram alterados para:
 
-10 neurônios da primeira camada
-5 neurônios na segunda camada
+10 neurônios da primeira camada,
+10 neurônios na segunda camada e
 4000 mil épocas
 
 A taxa de desempenho subiu para 9.
