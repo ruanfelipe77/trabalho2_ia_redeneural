@@ -19,10 +19,10 @@ def index(request):
 
     form = AutomacaoForms()
     if aValor:
+      sRetorno = f'A sua autonomia será de {aValor[0][0]:.1f} km por litro'
+      sDesempenho = f'O desenho da RNA foi de {aValor[1]:.1f} - quanto mais próximo de 1, mais próximo dos dados reais'
 
-      sRetorno = f'A sua autonomia será de {aValor[0]:.1f} km por litro'
-
-      contexto = {'form':form, 'retorno':sRetorno}
+      contexto = {'form':form, 'retorno':sRetorno, 'desempenho':sDesempenho}
     else:
       contexto = {'form':form}
 

@@ -54,7 +54,7 @@ class AutomacaoCalculo():
     # funcao de ativação
     # taxa constante
     rna = MLPRegressor( hidden_layer_sizes=(10, 5),
-                        max_iter=2000,
+                        max_iter=4000,
                         tol=0.0000001,
                         learning_rate_init=0.1,
                         solver="sgd",
@@ -66,8 +66,9 @@ class AutomacaoCalculo():
     rna.fit(X_norm_train, Y_train)
     X_futuro = np.array([[self.peso], [self.cilindros], [self.aceleracao], [self.anomodelo]])
     X_futuro_norm = escala.transform(X_futuro.T)
-
     y_rna_prev_futuro = rna.predict(X_futuro_norm)
 
-    # r2_rna = r2_score(Y_test, y_rna_prev_futuro)
-    return y_rna_prev_futuro
+    Y_rna_previsao = rna.predict(X_norm_test)
+    r2_rna = r2_score(Y_test, Y_rna_previsao)
+
+    return y_rna_prev_futuro, r2_rna
