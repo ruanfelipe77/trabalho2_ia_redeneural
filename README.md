@@ -44,3 +44,5 @@ A taxa de desempenho subiu para 9.
 Foram rodadas 4000 épocas com uma taxa de aprendizado de 0.1. Para a atualização dos parametros estou usando a estratégia da descida do gradiente estocástico. Por fim, foi utilizada a função de ativação logística.
 
 Essas estratégias e parâmetros descritos acima foram sendo testados e alterados manualmente até que os valores de saída tivessem uma taxa de desempenho superior a 8.
+
+Para facilitar, subi o projeto no heroku. Basta acessar o link: https://trabalhofinal-ia.herokuapp.com
